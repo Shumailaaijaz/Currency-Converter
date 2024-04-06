@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const currency = {
     USD: 1, // Base currency
@@ -26,7 +27,6 @@ let user_anser = await inquirer.prompt([
         choices: ["USD", "EUR", "GBP", "INR", "PKR"],
     },
 ]);
-console.log(user_anser);
 let fromAmount = currency[user_anser.from];
 let toAmount = currency[user_anser.to];
 let amount = user_anser.amount;

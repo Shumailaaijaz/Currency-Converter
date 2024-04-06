@@ -1,6 +1,6 @@
 {
-  "name": "converter",
-  "version": "1.0.0",
+  "name": "555_currency_converter",
+  "version": "2.0.1",
   "description": "this is simple converter for currency",
   "main": "index.js",
   "type": "module",
